@@ -1,0 +1,169 @@
+{
+    "settings": {
+        "appearanceTools": true,
+        "layout": {
+            "contentSize": "620px",
+            "wideSize": "1000px"
+        },
+        "spacing": {
+            "units": [
+                "%",
+                "px",
+                "em",
+                "rem",
+                "vh",
+                "vw"
+            ]
+        },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+                    "name": "System Font",
+                    "slug": "system-font"
+                },
+                {
+                    "name": "Silkscreen",
+                    "slug": "silkscreen",
+                    "fontFamily": "Silkscreen, system-ui",
+                    "fontFace": [
+                        {
+                            "src": [
+                                "file:./assets/fonts/silkscreen/silkscreen-400-normal.woff2"
+                            ],
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "fontFamily": "Silkscreen"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/silkscreen/silkscreen-700-normal.woff2"
+                            ],
+                            "fontWeight": "700",
+                            "fontStyle": "normal",
+                            "fontFamily": "Silkscreen"
+                        }
+                    ]
+                },
+                {
+                    "name": "Special Elite",
+                    "slug": "special-elite",
+                    "fontFamily": "\"Special Elite\", system-ui",
+                    "fontFace": [
+                        {
+                            "src": [
+                                "file:./assets/fonts/special-elite/special-elite-400-normal.woff2"
+                            ],
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "fontFamily": "\"Special Elite\""
+                        }
+                    ]
+                },
+                {
+                    "name": "Space Mono",
+                    "slug": "space-mono",
+                    "fontFamily": "\"Space Mono\", monospace",
+                    "fontFace": [
+                        {
+                            "src": [
+                                "file:./assets/fonts/space-mono/space-mono-400-normal.woff2"
+                            ],
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "fontFamily": "\"Space Mono\""
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/space-mono/space-mono-700-normal.woff2"
+                            ],
+                            "fontWeight": "700",
+                            "fontStyle": "normal",
+                            "fontFamily": "\"Space Mono\""
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/space-mono/space-mono-400-italic.woff2"
+                            ],
+                            "fontWeight": "400",
+                            "fontStyle": "italic",
+                            "fontFamily": "\"Space Mono\""
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/space-mono/space-mono-700-italic.woff2"
+                            ],
+                            "fontWeight": "700",
+                            "fontStyle": "italic",
+                            "fontFamily": "\"Space Mono\""
+                        }
+                    ]
+                }
+            ]
+        },
+        "useRootPaddingAwareAlignments": true
+    },
+    "styles": {
+        "color": {
+            "background": "#f2f2f2",
+            "text": "var(--wp--preset--color--black)"
+        },
+        "elements": {
+            "button": {
+                "color": {
+                    "background": "#3b096a",
+                    "text": "#f4a7a7"
+                }
+            },
+            "caption": {
+                "color": {
+                    "text": "var(--wp--preset--color--black)"
+                },
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--special-elite)",
+                    "fontStyle": "normal",
+                    "fontWeight": "400"
+                }
+            },
+            "heading": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--silkscreen)",
+                    "fontStyle": "normal",
+                    "fontWeight": "200"
+                }
+            },
+            "link": {
+                ":hover": {
+                    "color": {
+                        "text": "#670808"
+                    }
+                },
+                "color": {
+                    "text": "#39155b"
+                },
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--silkscreen)",
+                    "fontStyle": "normal",
+                    "fontWeight": "300"
+                }
+            }
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--space-mono)",
+            "fontStyle": "normal",
+            "fontWeight": "400"
+        }
+    },
+    "templateParts": [
+        {
+            "area": "header",
+            "name": "header"
+        },
+        {
+            "area": "footer",
+            "name": "footer"
+        }
+    ],
+    "version": 3,
+    "$schema": "https://schemas.wp.org/wp/6.6/theme.json"
+}
